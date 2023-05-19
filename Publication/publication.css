@@ -1,0 +1,201 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styles */
+header {
+  background-color: #f7f7f7;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav ul li:first-child {
+  margin-left: 0;
+}
+
+nav ul li a {
+  display: block;
+  padding: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #eee;
+}
+
+/* Main styles */
+main {
+  margin-top: 70px;
+  padding: 20px;
+}
+
+h1,
+.title {
+  font-size: 28px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+h2,
+.author-heading,
+.date-heading,
+.abstract-heading {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+p,
+.author-name,
+.publication-date,
+.abstract {
+  margin-bottom: 15px;
+}
+
+ul,
+.home-page ul,
+#publications {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul li,
+.home-page ul li,
+#publications li {
+  margin-bottom: 15px;
+}
+
+ul li a,
+.home-page ul li a,
+#publications li a {
+  display: block;
+  font-weight: bold;
+  padding: 5px;
+}
+
+ul li a:hover,
+.home-page ul li a:hover,
+#publications li a:hover {
+  background-color: #eee;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Home page specific styles */
+.home-page {
+  background-color: #fff;
+  text-align: center;
+}
+
+.home-page h1 {
+  font-size: 36px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.home-page p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.home-page ul {
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.home-page ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.home-page ul li:first-child {
+  margin-left: 0;
+}
+
+.home-page ul li a {
+  font-size: 18px;
+  padding: 15px;
+  background-color: #337ab7;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.home-page ul li a:hover {
+  background-color: #23527c;
+}
+
+/* Publications page specific styles */
+.publications-page {
+  background-color: #f7f7f7;
+}
+
+.publications-page h1 {
+  font-size: 28px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.publications-page ul li {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom styles for the publication page */
+.author-name {
+  font-weight: bold;
+}
+
+.abstract {
+  font-size: 16px;
+}
+
+.download-link {
+  display: block;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
